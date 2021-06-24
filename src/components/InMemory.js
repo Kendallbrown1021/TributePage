@@ -2,13 +2,13 @@ import React from "react";
 
 const InMemory = () => {
   return (
-    <div className="h-full pb-24">
-      <h2 className="font-secondary text-secondary text-4xl py-10">
+    <section id="in-memory" className="h-full pb-24">
+      <h2 className="font-secondary text-secondary text-4xl py-10 md:text-5xl">
         In Loving Memory
       </h2>
       <div className="container mx-auto lg:flex">
         <div className=" lg:w-6/12">
-          <p className=" break-words text-justify p-4 text-primary">
+          <p className=" break-words text-justify p-4 text-primary md:text-xl tracking-wide">
             Kenisha stepped into time on December 2, 1976 to her loving parents
             Willie Lester and Rosemary. She flourished through- out elementart
             school and graduated from Thornridge High School at the age of 17 as
@@ -23,7 +23,7 @@ const InMemory = () => {
           </p>
         </div>
         <div className="lg:w-6/12">
-          <p className=" break-words text-justify p-4 text-primary">
+          <p className=" break-words text-justify p-4 text-primary md:text-xl tracking-wide">
             She leaves behind to grieve her father (Willie), mother (Rosemary),
             grandmother (Allie), brothers (Kenyatta Sr, Sean Sr), nieces and
             nephews (Kendall, Kenyatta Jr, Natasha, Brettlyn, Kenya, Atiba and
@@ -35,7 +35,7 @@ const InMemory = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

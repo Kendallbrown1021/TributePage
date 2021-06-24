@@ -8,10 +8,10 @@ import { Carousel } from "react-responsive-carousel";
 
 const Tribute = () => {
   return (
-    <div className="h-full m-4">
+    <section id="tribute" className="h-screen m-4 mb-72 object-contain">
       <div className="container m-auto">
-        <div id="images-container md:h-1/2 ">
-          <Carousel axis="horizontal" className="">
+        <div id="images-container md:h-full max-w-lg object-contain ">
+          <Carousel axis="horizontal" className=" md:h-24 max-w-lg mx-auto">
             <div>
               <img src={Photo1} alt="Kenisha 2" className="w-1/4 rounded-lg" />
             </div>
@@ -32,7 +32,7 @@ const Tribute = () => {
           </Carousel>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
